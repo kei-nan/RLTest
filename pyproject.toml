@@ -14,8 +14,6 @@ classifiers = [
     'Topic :: Database',
     'Programming Language :: Python',
     'Intended Audience :: Developers',
-    'Programming Language :: Python :: 3.7',
-    'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3.10',
     'Programming Language :: Python :: 3.11',
@@ -24,13 +22,13 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = ">= 3.7.0"
-distro = "^1.5.0"
-redis = "^5.0.0rc2"
-psutil = "^5.9.5"
-pytest-cov = "^4.1.0"
-pytest = "^7.4"
-progressbar2 = "4.2"
+python = ">=3.9.0"
+distro = "^1.9.0"
+redis = "^7.0.0"
+psutil = "^6.1.0"
+pytest-cov = "^6.0.0"
+pytest = "^8.3.0"
+progressbar2 = "^4.5.0"
 
 [tool.poetry.urls]
 repository = "https://github.com/RedisLabsModules/RLTest"
